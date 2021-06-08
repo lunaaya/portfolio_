@@ -239,6 +239,27 @@ header {
 }
 
 /* WORK */
+.photo_01 {
+    display: flex;
+    margin-top: 100px;
+}
+
+.photo_01 img {
+    width: 50%;
+    margin-right: 50px;
+}
+
+.photo_02 {
+    display: flex;
+    margin-top: 250px;
+}
+
+.photo_02 img {
+    width: 50%;
+    margin-right: 50px;
+}
+
+/* CONTACT */
 
 
 
