@@ -171,11 +171,13 @@ header {
 
 .about_photo img {
     width: 250px;
-    padding: 50px 0 0 60px;
+    padding: 50px 0 0 100px;
 } 
 
 .wrapper {
     display: flex;
+    width: 85%;
+    margin: 0 auto;
 }
 
 .about_name {
@@ -188,9 +190,25 @@ header {
     letter-spacing: 2px;
 }
 
+.about_list {
+    padding: 20px 0 30px 0;
+}
+
+.about_list li {
+    display: flex;
+    font-size: 17px;
+}
+
+.p_center {
+    padding-left: 7px;
+}
+
+.about_list li a:hover {
+    text-decoration: underline;
+}
+
 .about_main_txt {
     font-size: 16px;
-    padding-top: 40px;
 }
 
 .about_txt {
@@ -231,7 +249,7 @@ header {
     text-align: left;
     width: 70%;
     margin: 0 auto;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .skill_inv i {
@@ -239,30 +257,73 @@ header {
 }
 
 /* WORK */
-.photo_01 {
-    display: flex;
-    margin-top: 100px;
+.work_size {
+    width: 100%;
+    margin: 0 auto;
 }
 
-.photo_01 img {
-    width: 50%;
-    margin-right: 50px;
+.photo_01 {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.photo_01 a img {
+    padding-right: 60px;
+}
+
+.photo_01 a {
+    transition: 0.5s;
+}
+
+.photo_01 a:hover {
+    opacity: 0.5;
 }
 
 .photo_02 {
-    display: flex;
-    margin-top: 250px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 150px;
 }
 
-.photo_02 img {
-    width: 50%;
-    margin-right: 50px;
+.photo_02 a img {
+    padding-right: 60px;
+}
+
+.photo_02 a {
+    transition: 0.5s;
+}
+
+.photo_02 a:hover {
+    opacity: 0.5;
 }
 
 /* CONTACT */
+.contact_SNS {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
 
+.contact_form .fab {
+    padding-bottom: 30px;
+}
 
+.contact_form p {
+    font-size: 20px;
+}
 
+.contact_form a {
+    transition: 0.5s;
+}
+
+.contact_form a:hover {
+    opacity: 0.7;
+}
 
 /* Jquery */
 .fadein {
