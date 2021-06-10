@@ -154,7 +154,6 @@
     /* WORK */
     .work_size {
         text-align: center;
-
     }
 
     .photo_01 {
@@ -164,6 +163,7 @@
     }
 
     .photo_01 a img {
+        width: 100%;
         padding: 0;
         padding-bottom: 70px;
     }
@@ -175,6 +175,7 @@
     }
 
     .photo_02 a img {
+        width: 100%;
         padding: 0;
         padding-bottom: 70px;
     }
@@ -182,7 +183,11 @@
     /* CONTACT */
 
     .contact_SNS {
-        width: 50%;
+        width: 80%;
+    }
+
+    .contact_form p {
+        font-size: 15px;
     }
 
     /* FOOTER */
