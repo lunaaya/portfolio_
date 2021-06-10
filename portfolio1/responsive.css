@@ -85,15 +85,20 @@
         padding-top: 30px;
     }
 
+    .about_name_txt {
+        display: block;
+    }
+
     .about_name {
         font-size: 25px;
         letter-spacing: 5px;
         text-align: center;
     }
     
-    .about_name span {
+    .about_sub {
         font-size: 17px;
         letter-spacing: 2px;
+        text-align: center;
     }
 
     .about_size {
