@@ -153,6 +153,8 @@ header {
     text-decoration: underline;
 }
 
+
+
 /* トップ写真 */
 .top_img {
     width: 100%;
@@ -364,6 +366,7 @@ footer {
     color: #fff;
     text-decoration: underline;
 }
+
 
 /* Jquery */
 .fadein {
