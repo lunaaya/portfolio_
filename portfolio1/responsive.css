@@ -1,0 +1,214 @@
+@media(max-width:780px) {
+    .container {
+        width: 100%;
+    }
+
+    /* header */
+    
+    .header-container {
+        display: block;
+        text-align: center;
+    }
+
+    .menu_li {
+        display: none;
+    }
+    /* ハンバーガーメニュー */
+    header {
+        position: relative;
+    }
+
+    .fa-bars {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 20px 20px 0 0 ;
+        z-index: 2000;
+    }
+
+    .header_nav {
+        background: linear-gradient(-135deg, #E4A972, #9941D8);
+        text-align: left;
+        transform: translateX(100%);
+        transition: 0.5s;
+        position: absolute;
+        top: 0 ;
+        right: 0;
+        z-index: 1000;
+    }
+
+    .header_menu li {
+        padding: 18px 100px 18px 12px;
+        font-size: 25px;
+    }
+
+    .header_menu li a {
+        color: #fff;
+    }
+
+    .header_menu li a:hover {
+        text-decoration: underline;
+    }
+
+    .btn {
+        position: absolute;
+        top: 23px;
+        right: 21px;
+        transform: scale(2.5);
+        opacity: 0;
+        z-index: 2000;
+    }
+
+    .btn:checked ~ .header_nav {
+        transform: translateX(0%);
+    }
+
+    /* ABOUT */
+
+    .wrapper {
+        display: block;
+        width: 100%;
+    }
+
+    .about_photo {
+        text-align: center;
+    }
+
+    .about_photo img {
+        width: 200px;
+        padding: 0;
+    } 
+
+    .about_txt {
+        width: 100%;
+        padding: 0;
+        padding-top: 30px;
+    }
+
+    .about_name {
+        font-size: 25px;
+        letter-spacing: 5px;
+        text-align: center;
+    }
+    
+    .about_name span {
+        font-size: 17px;
+        letter-spacing: 2px;
+    }
+
+    .about_size {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        padding-top: 40px;
+    }
+
+    .about_list {
+        width: 40%;
+        margin: 0 auto;
+    }
+
+    .about_list li {
+        display: block;
+        text-align: center;
+    }
+
+    .p_ttl {
+        border-bottom: 1px solid #333;
+    }
+
+    .arrow {
+        display: none;
+    }
+
+    .p_center {
+        padding-bottom: 20px;
+    }
+
+    .about_main_txt {
+        width: 50%;
+        margin: 0 auto;
+        text-align: left;
+    }
+
+    /* SKILL */
+
+    .contents {
+        display: block;
+    }
+
+    .skill_inv {
+        width: 100%;
+        margin: 0 auto;
+        border: none;
+        margin-bottom: 50px;
+    }
+
+    .skill_txt {
+        text-align: left;
+        width: 40%;
+        margin: 0 auto;
+        font-size: 15px;
+    }
+
+    /* WORK */
+    .work_size {
+        text-align: center;
+
+    }
+
+    .photo_01 {
+        width: 70%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .photo_01 a img {
+        padding: 0;
+        padding-bottom: 70px;
+    }
+
+    .photo_02 {
+        width: 70%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .photo_02 a img {
+        padding: 0;
+        padding-bottom: 70px;
+    }
+
+    /* CONTACT */
+
+    .contact_SNS {
+        width: 50%;
+    }
+
+    /* FOOTER */
+
+    .nav_menu_p {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+    }
+
+    .nav_menu_p li {
+        font-size: 12px;
+        padding: 0 10px;
+    }
+}
+
+@media(min-width:780px) {
+    header .fa-bars {
+        display: none;
+    }
+
+    .header_nav {
+        display: none;
+    }
+
+    .btn {
+        display: none;
+    }
+}
