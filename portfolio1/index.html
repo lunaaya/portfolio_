@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ＡYASE　MATSUMOTO</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./responsive.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
@@ -17,7 +18,20 @@
                 <div class="title_left">
                     <h1>Ayase Matsumoto</h1>
                 </div>
+
             </div>
+            <!-- ハンバーガーメニュー -->
+            <i class="fas fa-bars fa-2x"></i>
+            <input type="checkbox" class="btn">
+            <div class="header_nav">
+                <ul class="header_menu">
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#skill">SKILL</a></li>
+                    <li><a href="#work">WORK</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+            <!--/ ハンバーガーメニュー -->
             <div class="menu_li">
                 <ul class="nav_menu"> 
                     <li><a href="#about">ABOUT</a></li>
@@ -43,11 +57,13 @@
                 </div>
                 <div class="about_txt">
                     <p class="about_name">松本礼聖　　<span>AYASE MATSUMOTO</span></p>
-                    <ul class="about_list">
-                        <li><p class="p_ttl">出身 >></p><p class="p_center"><a href="https://goo.gl/maps/LENTQsUKmXgneFEi6">福井県小浜市</a></p></li>
-                        <li><p class="p_ttl">所属校 >></p><p class="p_center"><a href="https://www.kcg.ac.jp/">京都コンピュータ学院</a></p></li>
-                        <li><p class="p_ttl">学科 >></p><p class="p_center"><a href="https://www.kcg.ac.jp/departments/game/">ゲーム開発基礎科</a></p></li>
-                    </ul>
+                    <div class="about_size">
+                        <ul class="about_list">
+                            <li><p class="p_ttl"><span class="ttl_name">出身</span> <span class="arrow">>></span></p><p class="p_center"><a href="https://goo.gl/maps/LENTQsUKmXgneFEi6">福井県小浜市</a></p></li>
+                            <li><p class="p_ttl"><span class="ttl_name">所属校</span> <span class="arrow">>></span></p><p class="p_center"><a href="https://www.kcg.ac.jp/">京都コンピュータ学院</a></p></li>
+                            <li><p class="p_ttl"><span class="ttl_name">学科</span> <span class="arrow">>></span></p><p class="p_center"><a href="https://www.kcg.ac.jp/departments/game/">ゲーム開発基礎科</a></p></li>
+                        </ul>
+                    </div>
                     <p class="about_main_txt"> 高校は情報化に進みITの基礎の基礎を学び、京都コンピュータ学院でさらなる知識を得ました。<br>
                      例えば、高校では少ししか触れていなかったプログラミングなど今では多くの言語に触れています。</p>
                 </div>
@@ -123,6 +139,7 @@
             </div>
         </div>
 
+        <!-- FOOTER -->
         <footer>
             <p class="footer_p">2021.MatsumotoAyase</p>
             <div class="menu_li_p">
@@ -135,7 +152,6 @@
             </div>
         </footer>
 
-    
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
         <script>
             $(function (){
