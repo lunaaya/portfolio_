@@ -182,12 +182,17 @@ header {
     margin: 0 auto;
 }
 
+.about_name_txt {
+    display: flex;
+    align-items: center;
+}
+
 .about_name {
     font-size: 27px;
     letter-spacing: 5px;
 }
 
-.about_name span {
+.about_sub {
     font-size: 18px;
     letter-spacing: 2px;
 }
